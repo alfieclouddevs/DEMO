@@ -1,5 +1,5 @@
-console.log("hello")
-const monthyRent = 500;
+console.log("goodbye")
 
-const yearlyRent = monthlyRent * 12;
-console.log(yearlyRent);
+
+
+
