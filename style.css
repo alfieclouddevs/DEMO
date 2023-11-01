@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+.header{
+    background-color: bisque;
+    width: 100%;
+    margin: 0;
+    padding: 30px 0px 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-title{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    color: rgb(175, 146, 44);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 0px;
+    padding-top: 10px;
+
+}
+.grid-red-square{
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    position:relative;
+    padding: 20px 0 px 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
