@@ -20,12 +20,20 @@ html, body {
     width: 100%;
     color: rgb(175, 146, 44);
 }
+.grid-border{
+    position: relative;
+    padding: 50px 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
+    border: 2px;
+    border-color: black;
+}
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 10px;
-    column-gap: 0px;
+    column-gap: 10px;
     padding-top: 10px;
+    margin-left: 10px;
 
 }
 .grid-red-square{
