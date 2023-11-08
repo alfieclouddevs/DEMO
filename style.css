@@ -15,7 +15,7 @@ html, body {
 }
 
 .page-title{
-    margin: 0;
+    margin: auto;
     text-align: center;
     width: 100%;
     color: rgb(175, 146, 44);
@@ -23,9 +23,9 @@ html, body {
 .grid-border{
     position: relative;
     padding: 50px 50px 50px 50px;
-    margin: 50px 50px 50px 50px;
-    border: 2px;
-    border-color: black;
+    margin: auto;
+    width: 610px;
+    height: 610px;   
 }
 .grid{
     display: grid;
