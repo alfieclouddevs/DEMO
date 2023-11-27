@@ -25,4 +25,3 @@ const person = {
 
 const propertyName = 'city';
 console.log(person["propertyName"]);
-console.log(firstName);
